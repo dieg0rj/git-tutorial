@@ -1,4 +1,5 @@
 <?
+// testing testing testing
 class MoviePlotGenerator {
 	public static $adjectives = array('sadistic',
 									  'diminuitive',
