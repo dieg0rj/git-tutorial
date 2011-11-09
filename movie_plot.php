@@ -4,6 +4,7 @@ class MoviePlotGenerator {
 	public static $adjectives = array('sadistic',
 									  'diminuitive',
 									  'fat',
+									  'ugly',
 									  'determined',
 									  'girsly');
 						
@@ -15,6 +16,7 @@ class MoviePlotGenerator {
 									   'archaeologist',
 									   'investment banker',
 									   'baker',
+									   'driver',
 									   'swimsuit model');
 						 
 	public static $quirks = array('penchant for melodrama',
@@ -24,6 +26,7 @@ class MoviePlotGenerator {
 								  'lust for antiques',
 								  'background in Kung Fu',
 								  'baby on the way',
+								  'facebook addicts',
 								  '57\' Chevy',
 								  'family back in Mexico');
 					
