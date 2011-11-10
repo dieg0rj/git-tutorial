@@ -1,8 +1,10 @@
 <?
+// testing testing testing
 class MoviePlotGenerator {
 	public static $adjectives = array('sadistic',
 									  'diminuitive',
 									  'fat',
+									  'ugly',
 									  'determined',
 									  'grisly');
 						
@@ -14,6 +16,7 @@ class MoviePlotGenerator {
 									   'archaeologist',
 									   'investment banker',
 									   'baker',
+									   'driver',
 									   'swimsuit model');
 						 
 	public static $quirks = array('penchant for melodrama',
@@ -23,6 +26,7 @@ class MoviePlotGenerator {
 								  'lust for antiques',
 								  'background in Kung Fu',
 								  'baby on the way',
+								  'facebook addicts',
 								  '57\' Chevy',
 								  'family back in Mexico');
 					
@@ -57,7 +61,7 @@ class MoviePlotGenerator {
 	 */	
 	protected function getRandom($arr)
 	{
-		return $arr[rand(0, count($arr) - 1)];
+		return $arr[mt_rand(0, count($arr) - 1)];
 	}
 		
 }
